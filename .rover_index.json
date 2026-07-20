@@ -1,0 +1,103 @@
+{
+  "auth.py": {
+    "mtime": 1784563720.9160311,
+    "size": 172,
+    "symbols": {
+      "docstring": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "authenticate",
+          "line": 1,
+          "docstring": ""
+        }
+      ],
+      "imports": [],
+      "constants": []
+    },
+    "type": ".py"
+  },
+  "database.py": {
+    "mtime": 1784563720.9160311,
+    "size": 132,
+    "symbols": {
+      "docstring": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "get_user",
+          "line": 1,
+          "docstring": ""
+        }
+      ],
+      "imports": [],
+      "constants": []
+    },
+    "type": ".py"
+  },
+  "payment.py": {
+    "mtime": 1784567725.6222594,
+    "size": 92,
+    "symbols": {
+      "docstring": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "calculate_discount",
+          "line": 1,
+          "docstring": ""
+        }
+      ],
+      "imports": [],
+      "constants": []
+    },
+    "type": ".py"
+  },
+  "app.py": {
+    "mtime": 1784563720.9160311,
+    "size": 136,
+    "symbols": {
+      "docstring": "",
+      "classes": [],
+      "functions": [],
+      "imports": [
+        "auth.authenticate",
+        "payment.calculate_discount"
+      ],
+      "constants": []
+    },
+    "type": ".py"
+  },
+  "security.py": {
+    "mtime": 1784563720.9160311,
+    "size": 102,
+    "symbols": {
+      "docstring": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "execute",
+          "line": 3,
+          "docstring": ""
+        }
+      ],
+      "imports": [],
+      "constants": [
+        "API_KEY"
+      ]
+    },
+    "type": ".py"
+  },
+  "README.md": {
+    "mtime": 1784563720.9160311,
+    "size": 17,
+    "symbols": {
+      "docstring": "# rover-demo-repo",
+      "classes": [],
+      "functions": [],
+      "imports": [],
+      "constants": []
+    },
+    "type": ".md"
+  }
+}
